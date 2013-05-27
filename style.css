@@ -1,0 +1,141 @@
+/*
+Theme Name: MetroUI CSS Theme
+Theme URI: http://github.com/
+Description: Theme Based On Windows8 Metro User Interfce
+Version: 1.0
+Author: Simone Albano
+Author URI: http://jest.pw
+Tags: fixed width, one column
+*/
+
+@charset "utf-8";
+
+h1,h2,h3,h4,h5,h6 {
+	color:#ccc;
+}
+
+.metrouicss .page {
+    width: 1280px ;
+    margin: auto;
+}
+
+.browsers-icons img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* calendar widget */
+.widget_calendar, #wp-calendar { margin: 0px auto; width: 245px; padding:0px;border:1px dashed #444; }
+#wp-calendar caption { color: #223; font-size: 12px; margin-top: 10px; margin-bottom: 5px; }
+#wp-calendar thead { font-size: 10px;}
+#wp-calendar thead th { width:35px; padding-bottom: 5px; }
+#wp-calendar tbody { color: #ccc; }
+#wp-calendar tbody td { height:25px; text-align: center; padding:0px;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody td a { width:35px;  margin:0px auto;padding:0px;}
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+
+/* CSS Document */
+
+
+#sidebar ul {
+	list-style-position: inside;
+	list-style-type: none;
+	padding: 0px;
+}
+			
+#sidebar li {
+	margin-bottom:10px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#footer {
+		margin-top:5px;
+		padding:5px 0;
+		background:#cefdd9;
+		text-align:center;
+}
+
+.page-header h1 a, .page-header h1 {
+	font-size: 25px;
+}
+.item, .entry { 
+	float:left;
+	width:100%;
+	padding: 20px;
+	background-color: #eee;
+}
+
+.itemhead {
+	margin:5px 0px;
+	float:left;
+	width:100%;
+}
+
+.itemhead h3 {
+	color: #ede;
+	float:left; 
+	width:75%;
+	text-transform: uppercase;
+}
+
+.chronodata {
+	float:right;	
+	width:20%;
+	text-align:right;
+	color: #888;
+}
+
+.storycontent {
+	padding: 5px;
+	color: #343;
+}
+
+.category, .category a {
+	padding: 5px  0px;
+	font-size:12px;
+}
+
+.comment {
+	margin:5px 0px;
+	padding: 10px;
+}
+
+.even {
+	background-color: #dedede;
+}
+
+.odd {
+	background-color: #cdcdcd;
+}
+
+.comment-meta, .commentmetadata{
+	float:right;
+	width: 25%;
+	height:40px;
+}
+
+.comment-author, .vcard {
+	float:left;
+	width:75%;
+	height:40px;
+}
+
+.itemhead h3 {
+	color: black;
+}
+#search-form {
+	float:right;
+	width:29%;
+	padding: 20px 0px;
+}
+
+
+
+
+
+
+

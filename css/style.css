@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+		#mainBar {
+			width:670px;
+			background:#ffd2d3;
+			padding:10px;
+		}
+		#sidebar {
+			width:170px;
+			padding:10px 0 10px 10px;
+			margin-left:10px;
+			background:#ffd1b3;
+		}
+			#sidebar form {
+				display:block;
+				margin:20px 0;
+			}
+			#sidebar h3, #sidebar h4 {
+				font-size:13px;
+				margin:10px 0 0 0 ;
+			}
+			#sidebar ul {
+				list-style-position: inside;
+				list-style-type: none;
+				padding: 0px;
+			}
+			
+			#sidebar li {
+				margin-bottom:10px;
+				padding: 0px;
+				list-style-type: none;
+			}
+	#footer {
+		margin-top:5px;
+		padding:5px 0;
+		background:#cefdd9;
+		text-align:center;
+	}
